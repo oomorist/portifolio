@@ -1,0 +1,120 @@
+.footer {
+  background: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 140px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #f1f1f1;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #f1f1f1;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footer-contato li a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.footer-copy {
+  font-size: 1.125rem;
+  color: #f1f1f1;
+}
+
+.footer .gmail::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 13px;
+  left: -50px;
+  background: url("../img/email.svg") no-repeat;
+  color: #f1f1f1;
+}
+
+.footer .gmail::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 13px;
+  left: -50px;
+  background: url("../img/email.svg") no-repeat;
+  color: #f1f1f1;
+}
+
+.footer .telefone::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: -50px;
+  background: url("../img/telefone.svg") no-repeat;
+  color: #f1f1f1;
+}
+
+.footer .linkedin::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: -50px;
+  background: url("../img/linkedin.svg") no-repeat;
+  color: #f1f1f1;
+}
+
+.footer .github::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: -50px;
+  background: url("../img/github.svg") no-repeat;
+  color: #f1f1f1;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-contato li {
+    font-size: 1.5rem;
+    margin-left: 30px;
+  }
+
+  .footer .telefone::before,
+  .footer .linkedin::before,
+  .footer .github::before {
+    top: -5px;
+  }
+
+  .footer .gmail::before {
+    top: 0px;
+  }
+}
