@@ -49,8 +49,14 @@
     padding: 20px;
   }
 
+  .header-menu li {
+    width: 150px;
+    text-align: center;
+  }
+
   .header a {
-    background: var(--c1);
+    background: var(--c2);
+    border-radius: 4px;
   }
   .header-menu a:hover::after {
     width: 0;
