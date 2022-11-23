@@ -85,6 +85,14 @@
   width: 0;
 }
 
+.empresa-titulo a:hover {
+  color: var(--p3);
+}
+
+.empresa-titulo a:hover::after {
+  background: var(--p3);
+}
+
 .experiencia-texto:hover:not(:first-child) {
   box-shadow: -10px -10px var(--p1);
   transition: box-shadow 300ms linear;
